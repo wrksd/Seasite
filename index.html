@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a192f"><meta name="description" content="Sea Resort & Spa’da Ege kıyısında deniz manzaralı süitleri, sahil restoranlarını ve spa deneyimlerini keşfedin.">
+<title>Sea Resort & Spa | Ege Kıyısında Konaklama</title>
+<link rel="icon" href="brand.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="rooms.css"><link rel="stylesheet" href="lower.css">
+<link rel="preload" as="image" href="img/terrace.webp">
+<script defer src="lucide.min.js"></script><script defer src="rooms.js"></script><script defer src="lower.js"></script><script defer src="site.js"></script>
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="topbar"><div class="navrow">
+<a class="wordmark" href="#ana" aria-label="Sea Resort & Spa ana sayfa"><img src="brand.svg" alt=""><span>SEA<small>RESORT & SPA</small></span></a>
+<nav id="mainnav" aria-label="Ana menü"><a href="#ana" class="active">Ana Sayfa</a><a href="#hakkimizda">Hakkımızda</a><a href="#odalar">Odalar & Süitler</a><a href="#gastronomi">Gastronomi</a><a href="#spa">Spa & Aktiviteler</a><a href="#galeri">Galeri</a><a href="#iletisim">İletişim</a></nav>
+<div class="navtools"><div class="langs"><button id="lang" aria-expanded="false" aria-controls="language-list"><i data-lucide="globe"></i><span>TR</span><i data-lucide="chevron-down"></i></button><div id="language-list" hidden></div></div>
+<a class="navbook" href="#rezervasyon">Hemen Rezervasyon Yap</a><button class="hamb" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mainnav"><i data-lucide="menu"></i></button></div>
+</div></header>
+<main><section class="sea-hero" id="ana" aria-label="Sea Resort & Spa">
+<div class="hero-photo" aria-hidden="true"></div><div class="hero-shade"></div>
+<div class="herocopy"><div class="place"><span></span> BODRUM · EGE KIYILARI</div>
+<h1>Ege’nin kıyısında,<br><em>zaman yavaşlar.</em></h1>
+<p>Denize açılan süitler, zeytin ağaçlarının gölgesi ve yalnızca<br class="desktopbr"> size ait bir kıyı hikâyesi.</p>
+<a class="explore" href="#odalar">Odaları Keşfet</a></div>
+<div class="slidecontrols" aria-label="Otel fotoğrafları"><span id="slidenum">01</span><b></b><span>03</span><button data-slide="-1" aria-label="Önceki fotoğraf"><i data-lucide="chevron-left"></i></button><button data-slide="1" aria-label="Sonraki fotoğraf"><i data-lucide="chevron-right"></i></button></div>
+</section>
+
+<form class="stay-search" id="rezervasyon" aria-label="Konaklama için müsaitlik ara">
+  <label class="stay-field"><i data-lucide="calendar-days"></i><span><small>Giriş tarihi</small><input type="date" required id="stay-arrival" aria-label="Giriş tarihi"></span></label>
+  <label class="stay-field"><i data-lucide="calendar-days"></i><span><small>Çıkış tarihi</small><input type="date" required id="stay-departure" aria-label="Çıkış tarihi"></span></label>
+  <label class="stay-field"><i data-lucide="users"></i><span><small>Yetişkin</small><select id="stay-adults" aria-label="Yetişkin sayısı"><option value="1">1 yetişkin</option><option value="2" selected>2 yetişkin</option><option value="3">3 yetişkin</option><option value="4">4 yetişkin</option><option value="5">5 yetişkin</option><option value="6">6 yetişkin</option><option value="7">7 yetişkin</option></select></span></label>
+  <label class="stay-field"><i data-lucide="baby"></i><span><small>Çocuk</small><select id="stay-children" aria-label="Çocuk sayısı"><option value="0">Çocuk yok</option><option value="1">1 çocuk</option><option value="2">2 çocuk</option><option value="3">3 çocuk</option></select></span></label>
+  <label class="stay-field"><i data-lucide="bed-double"></i><span><small>Oda tipi</small><select id="stay-room" aria-label="Oda tipi"><option value="">Tüm odalar</option></select></span></label>
+  <button type="submit" class="stay-cta"><i data-lucide="search"></i>Müsaitlik Ara</button>
+</form>
+
+<section class="aboutsect" id="hakkimizda">
+<div class="aboutpictures"><img loading="lazy" class="aboutmain" src="img/architecture.webp" alt="Sea Resort konseptini yansıtan havuzlu otel avlusu"><img class="aboutdetail" loading="lazy" src="img/cove.webp" alt="Ege kıyısında deniz ve kumsal"></div>
+<div class="aboutcontent"><div class="kicker"><span></span> HİKÂYEMİZ</div><h2>Denizle iç içe,<br><em>doğayla uyum içinde.</em></h2><p>Bodrum’un sakin bir koyunda, beş yıldızlı otelimizde sabahlar tuz kokusuyla başlar. Taşın, ahşabın ve gün ışığının şekillendirdiği süitlerimizden birkaç adımda Mavi Bayraklı özel kumsalımıza ulaşırsınız.</p><p>Yerel üreticilerden soframıza gelen lezzetler ve suyu koruyan peyzajımız, Ege’nin doğasına duyduğumuz saygının bir parçası.</p>
+<div class="seastats"><div><strong>120</strong><span>Özel süit</span></div><div><strong>450 <small>m</small></strong><span>Özel kumsal</span></div><div><strong>3</strong><span>À la carte restoran</span></div><div><strong>%99</strong><span>Misafir memnuniyeti</span></div></div></div></section>
+
+<section id="odalar" aria-labelledby="stay-heading" class="stay-section">
+  <div class="stay-inner">
+    <p class="stay-kicker">KONAKLAMA</p><h2 id="stay-heading">Odalar &amp; Süitler</h2>
+    <div class="stay-filters" role="group" aria-label="Oda kategorileri"></div>
+    <div class="stay-grid"></div>
+  </div>
+</section>
+<dialog id="stay-dialog" aria-labelledby="stay-modal-heading"><div class="stay-dialog-inner">
+  <button type="button" class="stay-close" aria-label="Kapat"><i data-lucide="x"></i></button>
+  <div id="stay-modal-content"></div>
+</div></dialog>
+
+<section id="gastronomi" class="sr-section">
+  <div class="sr-wrap">
+    <header class="sr-heading"><p class="sr-kicker">Gastronomi</p><h2>Ege, sofranızda.</h2><p>Güne taş fırından çıkan ekmekle başlayın. Akşam, koyun son ışığında şefimizin mevsime göre değişen menüsünü keşfedin.</p></header>
+    <div class="sr-dining">
+      <article><img loading="lazy" src="img/restaurant.webp" alt="Sahildeki restoranın yemek alanı"><p class="sr-kicker">07.00 – 16.00</p><h3>Kıyı Sofrası</h3><p>Organik kahvaltı, taş baskı zeytinyağı ve öğle saatlerinde Ege otlarıyla hazırlanan tabaklar.</p></article>
+      <article><img loading="lazy" src="img/gourmet.webp" alt="Gurme akşam yemeğinden bir detay"><p class="sr-kicker">19.00 – 23.00</p><h3>Maré Restoran</h3><p>Günün balığı ve yerel üreticilerin sebzeleriyle hazırlanan, Akdeniz’e özgü bir akşam menüsü.</p></article>
+      <article><img loading="lazy" src="img/bar.webp" alt="Lounge bar atmosferi"><p class="sr-kicker">16.00 – 00.00</p><h3>Günbatımı Lounge</h3><p>Deniz meltemi eşliğinde narenciye kokulu imza kokteyller, alkolsüz karışımlar ve hafif atıştırmalıklar.</p></article>
+    </div>
+  </div>
+</section>
+<section id="spa" class="sr-well">
+  <div class="sr-wellphoto"><img loading="lazy" src="img/spa.webp" alt="Spa ve dinlenme alanı"></div>
+  <div class="sr-wellcopy"><p class="sr-kicker">Spa & Aktiviteler</p><h2>Kendinize ayırdığınız zaman.</h2><p>İster denize açılın, ister günün ilk saatlerini sessizlik içinde geçirin.</p>
+    <div class="sr-experiences">
+      <div><i data-lucide="waves"></i><span><strong>Sonsuzluk havuzu</strong>Ufukla buluşan suda bir sabah yüzüşü.</span></div>
+      <div><i data-lucide="sun"></i><span><strong>Özel iskele & cabana</strong>Gün boyu size ayrılmış gölgeli bir köşe.</span></div>
+      <div><i data-lucide="flower-2"></i><span><strong>Hamam & masaj</strong>Sıcak mermer, köpük ritüeli ve aromaterapi.</span></div>
+      <div><i data-lucide="sailboat"></i><span><strong>Denizde keşif</strong>Yelken, dalış ve paddleboard deneyimleri.</span></div>
+    </div>
+    <button type="button" class="sr-lightbtn" data-sr-request="Spa ve aktivite programı hakkında bilgi almak istiyorum.">Program hakkında bilgi alın</button>
+  </div>
+</section>
+<section id="galeri" class="sr-section">
+  <div class="sr-wrap"><header class="sr-heading"><p class="sr-kicker">Galeri</p><h2>Koydan kareler.</h2></header>
+    <div class="sr-tabs" aria-label="Galeri kategorileri" role="group"></div>
+    <div class="sr-gallery"></div>
+  </div>
+</section>
+<section class="sr-reviews" aria-label="Misafir yorumları"><div class="sr-wrap">
+  <p class="sr-kicker">Misafir defteri</p><h2>Konaklamadan kalanlar.</h2>
+  <div class="sr-review" aria-live="polite"></div>
+  <div class="sr-controls"><button type="button" data-sr-review="-1" aria-label="Önceki yorum"><i data-lucide="chevron-left"></i></button><span class="sr-counter"></span><button type="button" data-sr-review="1" aria-label="Sonraki yorum"><i data-lucide="chevron-right"></i></button></div>
+  <div class="sr-awards"><span><i data-lucide="star"></i> Tripadvisor <b>4,9/5</b></span><span><i data-lucide="award"></i> Booking.com <b>9,6/10</b></span><span><i data-lucide="flag"></i> Mavi Bayrak</span></div>
+  <small>Otel konseptini tanıtan örnek yorumlar, puanlar ve sertifika gösterimidir.</small>
+</div></section>
+<section id="iletisim" class="sr-section"><div class="sr-wrap sr-contact">
+  <div><p class="sr-kicker">İletişim</p><h2>Konaklamanızı<br>birlikte planlayalım.</h2><p>Oda seçiminden havalimanı transferine kadar, tatilinizi size özel kılacak ayrıntıları paylaşın.</p>
+    <div class="sr-details">
+      <div><i data-lucide="map-pin"></i><span><strong>Adres</strong>Gündoğan kıyısı, Bodrum / Muğla</span></div>
+      <div><i data-lucide="phone"></i><span><strong>7/24 rezervasyon hattı</strong>+90 (252) XXX XX XX · Örnek hat</span></div>
+      <div><i data-lucide="mail"></i><span><strong>E-posta</strong>rezervasyon@searesort.example</span></div>
+    </div>
+    <button type="button" data-sr-support class="sr-textbtn"><i data-lucide="message-circle"></i> WhatsApp ile iletişim</button>
+    <div class="sr-map"><i data-lucide="map-pin"></i><strong>Gündoğan Koyu</strong><span>Milas–Bodrum Havalimanı’na yaklaşık 50 km</span><a href="https://www.google.com/maps/search/?api=1&query=G%C3%BCndo%C4%9Fan%2C+Bodrum%2C+Mu%C4%9Fla" target="_blank" rel="noopener">Bölgeyi haritada aç</a></div>
+  </div>
+  <form class="sr-form" id="sr-contact-form"><h3>Özel talep formu</h3>
+    <label>Ad soyad<input autocomplete="name" name="fullname" required minlength="2" maxlength="100"></label>
+    <div class="sr-fieldrow"><label>E-posta<input type="email" autocomplete="email" name="email" required maxlength="180"></label><label>Telefon<input type="tel" autocomplete="tel" name="tel" placeholder="+90" required pattern="[+]?[0-9 ]{7,23}" title="Alan koduyla birlikte telefon numaranızı girin"></label></div>
+    <label>Konu<select name="subject"><option>Rezervasyon</option><option>Balayı Paketi</option><option>Transfer</option><option>Etkinlik</option><option>Spa ve Aktiviteler</option><option>Diğer</option></select></label>
+    <label>Mesajınız<textarea name="message" rows="4" required minlength="5" maxlength="2500"></textarea></label>
+    <small>Örnek formda bilgiler yalnızca ekranınızda işlenir.</small>
+    <button type="submit" class="sr-primary">Talebi gönder</button>
+  </form>
+</div></section>
+</main>
+<footer class="sr-footer"><div class="sr-wrap">
+  <div class="sr-footgrid"><div><h3>Sea Resort & Spa</h3><p>Ege kıyısında, doğanın ritmine eşlik eden bir konaklama deneyimi.</p><div class="sr-social"><button type="button" data-sr-social="Instagram" aria-label="Instagram"><i data-lucide="camera"></i></button><button type="button" data-sr-social="Facebook" aria-label="Facebook"><i data-lucide="users"></i></button></div></div>
+  <div><h4>Hızlı linkler</h4><a href="#gastronomi">Gastronomi</a><a href="#spa">Spa & Aktiviteler</a><a href="#galeri">Galeri</a><a href="#iletisim">İletişim</a></div>
+  <div><h4>Politikalar</h4><button type="button" data-sr-policy="KVKK">KVKK</button><button type="button" data-sr-policy="İptal & İade Koşulları">İptal & İade Koşulları</button><button type="button" data-sr-policy="Çerez Politikası">Çerez Politikası</button></div>
+  <div><h4>E-bülten</h4><p>Sezona özel teklifler ve koydan haberler.</p><form id="sr-news"><label for="sr-news-email">E-posta adresiniz</label><div><input name="email" id="sr-news-email" type="email" required autocomplete="email"><button aria-label="E-bültene kaydol" type="submit"><i data-lucide="send"></i></button></div></form></div></div>
+  <div class="sr-footnote">© 2026 Sea Resort & Spa <span>Konsept otel · Örnek web sitesi</span></div>
+</div></footer>
+<div class="sr-floating"><button type="button" id="sr-top" aria-label="Yukarı çık" hidden><i data-lucide="chevron-up"></i></button><button type="button" data-sr-support aria-label="Misafir desteğini aç"><i data-lucide="message-circle"></i></button></div>
+<dialog id="sr-dialog" aria-labelledby="sr-dialog-title"><div class="sr-dialoghead"><h3 id="sr-dialog-title"></h3><button type="button" aria-label="Pencereyi kapat" data-sr-close><i data-lucide="x"></i></button></div><div id="sr-dialog-body"></div></dialog>
+<div id="sr-toast" role="status" aria-live="polite"></div>
+
+<div role="status" hidden class="site-note" id="language-note"></div></body></html>
